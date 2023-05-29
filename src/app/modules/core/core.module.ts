@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoaderComponent } from './components/loader/loader/loader.component';
+import { LoaderComponent } from './components/loader/loader.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { LayoutComponent } from '../layout/layout.component';
 
 
 
@@ -10,7 +11,8 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
   declarations: [
     LoaderComponent,
     ProfileComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    LayoutComponent,
   ],
   imports: [
     CommonModule
