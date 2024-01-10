@@ -1,23 +1,34 @@
 <!-- Navigation -->
-<div class="main-nav">
+<div class="main-nav d-flex">
   <div class="container">
-    <header class="group top-nav" id="home">
+   <div class="row">
+    <header class="group top-nav " id="home">
+      
+     <div class="">
       <div
-        class="navigation-toggle"
-        data-tools="navigation-toggle"
-        data-target="#navbar-1"
-      >
-        <span class="logo">DRACO</span>
+      class="navigation-toggle"
+      data-tools="navigation-toggle"
+      data-target="#navbar-1"
+    >
+      <span class="logo">DRACO</span>
+    </div>
+    <nav id="navbar-1" class="navbar item-nav"> 
+      <ul>
+        <li class="active"><a href="#home">Home</a></li>
+        <li class="active"><a href="#about">About</a></li>
+        <li><a href="#techStack">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+     </div>
+
+      <div class="icon-area">
+        <img src="/assets/img/icon/github-icon.svg" alt="github">
+        <img src="/assets/img/icon/linkedin-icon.svg" alt="linkedin">
+        <img src="/assets/img/icon/twitter-icon.svg" alt="twitter">
       </div>
-      <nav id="navbar-1" class="navbar item-nav">
-        <ul>
-          <li class="active"><a href="#home">Home</a></li>
-          <li class="active"><a href="#about">About</a></li>
-          <li><a href="#techStack">Tech Stack</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
     </header>
+   </div>
   </div>
 </div>

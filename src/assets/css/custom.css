@@ -2,8 +2,15 @@
  *  Draco HTML Template by @flamekaizar
  *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
  */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+ :root {
+  --text-color: #666666;
+  --white: #ffffff;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display SC", serif;
+  font-family: 'Poppins', sans-serif;
   color: #333333; }
 
 a, p, li {
@@ -72,12 +79,12 @@ a:hover {
   100% {
     opacity: 1; } }
 .main-nav {
-  background: #f4f4f4;
+  background: var(--white);
   padding-top: 23px; }
   .main-nav nav ul li a {
     color: #a7a7a7; }
   .main-nav nav ul li.active a {
-    color: #4d4d4d; }
+    color: var(--text-color); }
 
 .section.second {
   margin-bottom: 90px; }
@@ -90,15 +97,26 @@ a:hover {
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
-    position: relative; }
-
+    position: relative; 
+    font-weight: bold;}
+  .profile{
+    width: 188px;
+    height: 193px;
+    background: linear-gradient(45deg, #E70FAA, #00C0FD);
+    border-radius: 50%;
+  }
 .intro {
+  
   padding: 95px 0px 70px 0px;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
   .intro img {
-    width: 109px;
-    height: 104px;
-    border-radius: 63px; }
+    width: 163px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 8px;
+    height: auto;
+  }
   .intro .wrap {
     margin: 30px 0px; }
   .intro h1:before {
