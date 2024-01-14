@@ -90,10 +90,7 @@ a:hover {
   margin-bottom: 90px; }
 .section .container {
   position: relative; }
-  .section .container:after {
-    position: absolute;
-    content: url(../img/separator.png);
-    left: 20px; }
+
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
