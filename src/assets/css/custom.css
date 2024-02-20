@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
 :root {
-  --text-color: #666666;
+  --text-color: #D9D9D9;
   --white: #ffffff;
 }
 h1,
@@ -16,21 +16,20 @@ h4,
 h5,
 h6 {
   font-family: "Inter", sans-serif;
-  color: #333333;
+  color: #D9D9D9 !important; 
 }
-
 a,
 p,
 li {
   font-family: "Inter", sans-serif;
-  color: #4e4e4e;
+  color: #D9D9D9 !important; 
   font-size: 1em;
   line-height: 1.75em;
 }
 
 a:hover {
   text-decoration: none !important;
-  color: #333333 !important;
+  color: #D9D9D9 !important; 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
