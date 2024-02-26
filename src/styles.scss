@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    color: #D9D9D9 !important; 
-    background-color: #000000e6 !important;
+    color: #727272 !important; 
+    background-color: #101011;
+    background-color: rgb(16 16 17/var(1));
 }
 .bg-dark{
     background-color: #000000e6 !important;
 }
 .navbar-light .navbar-brand {
-    color: #D9D9D9 !important; 
+    color: #727272 !important; 
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #D9D9D9 !important; 
+    color: #727272 !important; 
 }
